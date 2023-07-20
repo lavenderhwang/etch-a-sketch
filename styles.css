@@ -1,3 +1,12 @@
+@font-face {
+	font-family: pixelLetters;
+	src: url(pixel-letters.ttf);
+}
+@font-face {
+	font-family: blocked;
+	src: url(blocked.ttf);
+}
+
 * {
 	margin: 0px;
 	padding: 0px;
@@ -9,13 +18,22 @@ body {
 	display: flex;
 	flex-direction: column;
 	gap: 25px;
-	background-color: #d5f0f8;
+
+	background-image: linear-gradient(
+		180deg,
+		#fff6f6,
+		#fff7ef,
+		#fffff1,
+		#f7fff3,
+		#f5f9ff
+	);
 }
 
 .title {
 	text-align: center;
 	margin-top: 17px;
 	margin-bottom: 0px;
+	font-size: 38px;
 }
 
 /*DEFAULT  GRID*/
