@@ -4,33 +4,20 @@
 	box-sizing: border-box;
 }
 
-body {
-	text-align: center;
-}
-
-h1 {
-	margin-bottom: 50px;
-	margin-top: 20px;
-}
-
 /*DEFAULT  GRID*/
 
-.grid-container {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-}
 .grid {
-	display: flex;
-	flex-wrap: wrap;
-	width: 400px;
-	height: 400px;
+	height: 500px;
+	width: 500px;
+	display: grid;
+}
+.grid:hover {
+	cursor: pointer;
 }
 
-.grid-cell {
-	border: 0.2px solid black;
-	height: 25px;
-	width: 25px;
+.default-color {
+	background-color: white;
+	outline: 0.1px solid black;
 }
 
 /* CHANGE COLOR ON HOVER */

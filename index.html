@@ -8,10 +8,30 @@
 		<script src="script.js" defer></script>
 	</head>
 	<body>
-		<h1>Etch-A-Sketch</h1>
+		<h1 class="title">Etch-A-Sketch</h1>
 
-		<div class="grid-container">
+		<div class="container">
 			<div class="grid"></div>
+			<div class="buttons">
+				<button onclick="changeColor('black')">Pen</button>
+				<button onclick="changeColor('white')">Eraser</button>
+				<button onclick="changeColor('rainbow')">Rainbow</button>
+				<button onclick="resetGrid()">Reset</button>
+			</div>
+			<div>
+				<div class="slider-container">
+					<input
+						class="slider"
+						type="range"
+						min="2"
+						max="100"
+						value="16"
+						oninput="rangeValue.innerText = this.value"
+						onchange="changeSize(this.value)"
+					/>
+					<p id="rangeValue">16</p>
+				</div>
+			</div>
 		</div>
 	</body>
 </html>
