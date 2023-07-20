@@ -27,25 +27,20 @@ function changeSize(input) {
 	createGrid(input);
 }
 
-/*function changeSize(input) {
-	if (input <= 2 || input <= 100) {
-		createGrid(input);
-	} else {
-		console.log('Please enter a number 2-100.');
-	}
-}*/
 //CHANGE COLOR ON HOVER//
 
 function colorSquare() {
 	if (click) {
 		if (color === 'rainbow') {
 			const rainbowColors = [
-				'red',
-				'orange',
-				'yellow',
-				'green',
-				'blue',
-				'purple',
+				'#f7f0a8',
+				'#d5f7c4',
+				'#f6d1d9',
+				'#fff3f0',
+				'#c4d8f3',
+				'#c8c7f7',
+				'#ccb5fb',
+				'#c0e9ef',
 			];
 			this.style.backgroundColor =
 				rainbowColors[Math.floor(Math.random() * rainbowColors.length)];

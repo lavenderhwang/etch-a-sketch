@@ -2,6 +2,20 @@
 	margin: 0px;
 	padding: 0px;
 	box-sizing: border-box;
+	font-family: 'Poppins', sans-serif;
+}
+
+body {
+	display: flex;
+	flex-direction: column;
+	gap: 25px;
+	background-color: #d5f0f8;
+}
+
+.title {
+	text-align: center;
+	margin-top: 17px;
+	margin-bottom: 0px;
 }
 
 /*DEFAULT  GRID*/
@@ -10,6 +24,7 @@
 	height: 500px;
 	width: 500px;
 	display: grid;
+	border: 1px solid black;
 }
 .grid:hover {
 	cursor: pointer;
@@ -17,7 +32,63 @@
 
 .default-color {
 	background-color: white;
-	outline: 0.1px solid black;
+	outline: 0.01px solid black;
 }
 
-/* CHANGE COLOR ON HOVER */
+.container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 30px;
+}
+
+.buttons {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	gap: 10px;
+	margin: 0px;
+	padding: 0px;
+}
+
+button {
+	width: 123px;
+	height: 30px;
+	padding: 12px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+button:hover,
+.slider:hover {
+	cursor: pointer;
+}
+
+#reset {
+	background-color: #fff3f0;
+}
+#reset:hover {
+	background-color: #efe0dc;
+}
+
+#rainbow {
+	background-color: #f6d1d9;
+}
+#rainbow:hover {
+	background-color: #e8b9c4;
+}
+#eraser {
+	background-color: #d5f7c4;
+}
+
+#eraser:hover {
+	background-color: #bee4ab;
+}
+#pen {
+	background-color: #f7f0a8;
+}
+
+#pen:hover {
+	background-color: #ebe59f;
+}
