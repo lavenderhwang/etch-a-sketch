@@ -31,9 +31,9 @@ body {
 
 .title {
 	text-align: center;
-	margin-top: 17px;
-	margin-bottom: 0px;
-	font-size: 38px;
+	margin-top: 40px;
+	margin-bottom: 30px;
+	font-size: 2.5em;
 }
 
 /*DEFAULT  GRID*/
@@ -109,4 +109,28 @@ button:hover,
 
 #pen:hover {
 	background-color: #ebe59f;
+}
+
+.footer {
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	font-size: 1.5em;
+	color: black;
+	font-weight: bold;
+	padding: 0.7em;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 0.5em;
+}
+
+.github-link:hover {
+	cursor: pointer;
+	color: black;
+}
+
+.github-mark {
+	width: 30px;
+	height: 30px;
 }
