@@ -1,7 +1,21 @@
-# etch-a-sketch
+# Etch a Sketch
 
-7/17/23
-Soo....I kinda gave up on Rock Paper Scissors halfway through, so I'm determined to finish this one. I want a fully complete project I can be proud of!
+This [project](https://www.theodinproject.com/lessons/foundations-etch-a-sketch) is a browser-based Etch-a-Sketch application created as part of [The Odin Project’s Foundations course](https://www.theodinproject.com/paths/foundations/courses/foundations). It allows users to draw on a 16x16 grid of squares, using mouse interactions to create colorful trails as they hover over the grid.
 
-7/19/23
-well I def gave up on this one BUT i went back and finished RPS..so time to do this one too!
+## Features
+
+- Generate a customizable grid size based on user input (up to 100 squares per side)
+- Change the color of grid squares on hover to simulate drawing
+- The grid maintains a fixed total pixel area for a consistent drawing experience
+
+## Technologies Used
+
+- HTML
+- CSS (Flexbox)
+- JavaScript
+
+## Project Goals
+
+- Practice DOM manipulation and event handling.
+- Implement a flexible grid layout using Flexbox.
+- Experiment with JavaScript functions for user interaction and grid generation.
