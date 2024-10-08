@@ -2,7 +2,7 @@
 
 This [project](https://www.theodinproject.com/lessons/foundations-etch-a-sketch) is a browser-based Etch-a-Sketch application created as part of [The Odin Project’s Foundations course](https://www.theodinproject.com/paths/foundations/courses/foundations). It allows users to draw on a 16x16 grid of squares, using mouse interactions to create colorful trails as they hover over the grid.
 
-Live Preview 👉: [](https://lavenderhwang.github.io/etch-a-sketch/)
+Live Preview 👉: [Etch-a-Sketch](https://lavenderhwang.github.io/etch-a-sketch/)
 
 ## Features
 
